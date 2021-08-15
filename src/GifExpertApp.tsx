@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import AddCategoryComponent from "./components/AddCategory";
 import GifGridComponent from "./components/GifGrid";
+import 'animate.css';
 
 const GifExpertApp = () => {
   

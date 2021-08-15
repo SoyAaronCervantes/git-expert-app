@@ -4,7 +4,7 @@ import {GifsData} from "../interfaces/GifData";
 
 const GifGridItem = ({ item }: { item: GifsData }) => {
   return (
-    <div className={ "card" }>
+    <div className="card animate__animated animate__fadeIn">
       <img src={ item.url } alt={ item.title }  />
       <p>{ item.title }</p>
     </div>

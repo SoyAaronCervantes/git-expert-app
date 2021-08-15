@@ -9,8 +9,8 @@ const GifGridComponent = ({ category }: { category: string }) => {
 
   return (
     <>
-      <h3>{ category }</h3>
-      { loading && <p>Loading...</p> }
+      <h3 className="animate__animated animate__fadeInLeft">{ category }</h3>
+      { loading && <p className="animate__animated animate__fadeInLeft">Loading...</p> }
       <div className={ "grid--cards" }>
         {
           images.map( image => (
