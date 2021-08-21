@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import {getGifs} from "../services/api/ServiceApiGifs";
 import {GifsData} from "../interfaces/GifData";
 
-interface FetchState {
+export interface FetchState {
   data: GifsData[];
   loading: boolean
 }

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <GifGrid/> should display correctly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInLeft"
+  >
+    Goku
+  </h3>
+  <p
+    className="animate__animated animate__fadeInLeft"
+  >
+    Loading...
+  </p>
+  <div
+    className="grid--cards"
+  />
+</Fragment>
+`;

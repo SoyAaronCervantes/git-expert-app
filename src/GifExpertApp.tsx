@@ -3,9 +3,9 @@ import AddCategoryComponent from "./components/AddCategory";
 import GifGridComponent from "./components/GifGrid";
 import 'animate.css';
 
-const GifExpertApp = () => {
+const GifExpertApp = ({ value = [] }: { value: string[] }) => {
   
-  const [categories, setCategories] = useState(['Bleach']);
+  const [categories, setCategories] = useState( value );
 
   return (
     <>
